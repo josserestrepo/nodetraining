@@ -1,0 +1,11 @@
+@media screen and (min-width: $lg-screen){
+    .menu-items {
+        position: initial;
+        background-color: initial;
+    }
+
+    .menu-item {
+        display: inline-block;
+        border-bottom: none;
+    }
+}

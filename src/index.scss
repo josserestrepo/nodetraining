@@ -1,0 +1,16 @@
+// Import regular (400) font
+@import url('https://fonts.googleapis.com/css?family=Merriweather');
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,700');
+
+@import "./styles/variables.scss";
+
+@import "./styles/layout-rules.scss";
+@import "./styles/base-rules.scss";
+
+//Components mobile firts
+@import "./styles/components/menu.scss";
+@import "./styles/components/hero.scss";
+
+// Media rules
+@import "./styles/components/menu-media.scss";
+@import "./styles/components/hero-media.scss";

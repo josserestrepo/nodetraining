@@ -1,0 +1,32 @@
+// Breakpoints
+$lg-screen: 768px;
+
+/* Font related
+    ff: font family
+    fs:font size
+    fw: font weight
+    lh:line height
+*/
+$ff-base: "Merriweather", serif;
+$ff-forms: "Raleway", sans-serif;
+$fs-normal: 15px;
+$fw-normal: 400;
+$fw-bold:   700;
+$lh-normal: 30px;
+
+// Colors
+$grey-darkest:    rgb(14,16,21);    //#0E1015
+$grey-darker:     rgb(18,21,27);    //#12151B
+$grey-dark:       rgb(38,45,58);    //#262D3A
+$grey:            rgb(87,88,89);    //#575859
+$grey-light:      rgb(192,205,209); //#C0CDD1
+$grey-lighter:    rgb(236,240,241); //#ECF0F1
+$orange-dark:     rgb(164,59,10);   //#A43B0A
+$orange-light:    rgb(242,101,34);  //#F26522
+
+// Offsets
+$offset-65: 65px;
+
+// Resources
+$img-logo: url("../assets/images/logo.png");
+$img-hero: url("../assets/images/hero-bg.jpg");
