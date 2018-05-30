@@ -1,0 +1,23 @@
+.latest-works{
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.work{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 50%;
+
+}
+
+.work-img{
+    max-width: 100%;
+    height: auto;
+}
+
+.work-title{
+    color: white;
+    text-transform: uppercase;
+    font: 15px/21px;
+}
