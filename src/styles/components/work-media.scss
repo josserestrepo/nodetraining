@@ -1,4 +1,8 @@
 @media screen and (min-width: $lg-screen){
+    .l-latest-works{
+        max-width: 1200px;
+    }
+    
     .work{
         width: 25%;       
     }
@@ -6,5 +10,17 @@
     .work-img{
         max-width: 100%;
         height: auto;
+        //transition: opacity 0.3s ease-in-out;
+        transition-delay: opacity 0.5s ease-in-out;
     }
+
+    .work:hover .work-img{
+        visibility: hidden;
+    }
+
+    .work:hover .work-text{
+        visibility: visible;
+    }
+
+
 }
